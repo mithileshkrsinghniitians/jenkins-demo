@@ -19,7 +19,7 @@ else
     read Num
 fi
 
-f1=0
+f1=100
 f2=1
 
 echo "The Fibonacci sequences for the number $Num is : "
@@ -32,4 +32,4 @@ do
      f2=$fn
 done
 
-echo
+echo "Invoked and Executed by Mithilesh Singh"
