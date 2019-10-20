@@ -21,6 +21,8 @@ pipeline {
 	archiveArtifacts 'MavenProject/multi3/target/*.war'
 		   }
 	}
+	
+	/* 
 	stage('Deployment') {
 	// Deployment
 	steps {
@@ -29,7 +31,9 @@ pipeline {
 	sh 'cp MavenProject/multi3/target/*.war /Applications/apache-tomcat-9.0.27/webapps/'
 			}
 		}
-	}
+	} 
+	*/
+	
 	stage('publish html report') {
 	steps{
 	echo "publishing the html report"
